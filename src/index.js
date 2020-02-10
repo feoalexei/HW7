@@ -9,7 +9,6 @@ let inputSymbol = prompt('Enter the symbol to fill the string:');
 let inputFlag = prompt('Enter the side where the string should be filled (\'start\' or \'end\')');
    
 function padString(string, targetLength, symbol, flag = 'end') {
-       
     let symbolString = '';
     let newString;
             
